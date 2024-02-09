@@ -84,7 +84,7 @@ namespace HeartRates
         {
             get
             {
-                return 220 - CalcAge;
+                return 220 - CalculateAge;
             }
         }
 
@@ -92,7 +92,7 @@ namespace HeartRates
         {
             get
             {
-                return CalcMaxHR * 0.5;
+                return CalculateMaxHR * 0.5;
             }
         }
 
@@ -100,7 +100,7 @@ namespace HeartRates
         {
             get
             {
-                return CalcMaxHR * 0.85;
+                return CalculateMaxHR * 0.85;
             }
         }
 
