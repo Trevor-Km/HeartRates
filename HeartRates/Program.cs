@@ -12,9 +12,6 @@ namespace HeartRates
                static void Main(string[] args)
         {
 
-            
-            
-            
             HeartRates hr1 = new HeartRates();
             Console.WriteLine("Please enter your last name");
             hr1.LastName = Console.ReadLine();

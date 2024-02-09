@@ -72,7 +72,7 @@ namespace HeartRates
             }
         }
 
-        public int CalcAge
+        public int CalculateAge
         {
             get
             {
@@ -80,7 +80,7 @@ namespace HeartRates
             }
         }
 
-        public int CalcMaxHR
+        public int CalculateMaxHR
         {
             get
             {
@@ -104,28 +104,7 @@ namespace HeartRates
             }
         }
 
-        private int CalculateAge(int birthYear, int currentYear)
-        {
-            return currentYear - birthYear;
-
-        }
-        private int CalculateHR(int birthYear, int currentYear)
-        {
-            int age = CalculateAge(birthYear, currentYear);
-            return 220 - age;
-
-        }
-
-
-        private string CalculateTargetRange(int birthYear, int currentYear)
-        {
-
-            int heartRate = CalculateHR(birthYear, currentYear);
-            double target1 = heartRate * 0.5;
-            double target2 = heartRate * 0.85;
-            return $"{target1} - {target2} ";
-
-        }
+       
 
         public void displayPatientRecord()
         {
