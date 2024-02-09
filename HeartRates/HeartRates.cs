@@ -115,9 +115,9 @@ namespace HeartRates
             drawLine();
             Console.WriteLine($"| {"Patient Birth Year ",-25} | {birthYear,50} |");
             drawLine();
-            Console.WriteLine($"| {"Patient Age ",-25} | {CalcAge,50} |");
+            Console.WriteLine($"| {"Patient Age ",-25} | {CalculateAge,50} |");
             drawLine();
-            Console.WriteLine($"| {"Maximum Heart Rate ",-25} | {CalcMaxHR,50} |");
+            Console.WriteLine($"| {"Maximum Heart Rate ",-25} | {CalculateMaxHR,50} |");
             drawLine();
             Console.WriteLine($"| {"Target Heart Rate Range ",-25} | {MinTargetHR + " - " + MaxTargetHR,50} |");
             drawLine();
